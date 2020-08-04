@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/twentymurial33/new/issues"
   },
-  "homepage": "https://github.com/twentymurial33/new#readme"
+  "homepage": "https://github.com/twentymurial33/new#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0"
+  }
 }

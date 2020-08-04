@@ -11,11 +11,11 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 5000;
 
 //DATABASE setup 
-var mongoose= require ('mongoose');
-mongoose.connect();
+// var mongoose= require ('mongoose');
+// mongoose.connect();
 
 //Handle the connection event
 
